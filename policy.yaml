@@ -38,7 +38,7 @@
 # via DNS rewriting. No client configuration needed.
 # Recommended: true for libraries, schools, and care facilities.
 # ------------------------------------------------------------
-safe_search: false
+safe_search: true
 
 
 # ------------------------------------------------------------
