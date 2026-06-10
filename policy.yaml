@@ -19,17 +19,17 @@
 # allowlist: filename   — serve this allowlist file
 # allowlist: none       — block all outbound traffic
 # ------------------------------------------------------------
-schedules:
+# schedules:
 
-  - name: opening_hours
-    days: [mon, tue, wed, thu, fri]
-    time: "09:00-17:00"
-    allowlist: test2.txt
+  # - name: opening_hours
+    # days: [mon, tue, wed, thu, fri]
+    # time: "09:00-17:00"
+    # allowlist: test2.txt
 
   # Catch-all: applies when no other window matches.
   # Use a minimal list for evenings/weekends, or 'none' to block all.
-  - name: default
-    allowlist: none
+  # - name: default
+    # allowlist: none
 
 
 # ------------------------------------------------------------
