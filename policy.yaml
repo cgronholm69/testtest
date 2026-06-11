@@ -46,4 +46,4 @@ safe_search: true
 # Forces YouTube into restricted mode via DNS rewriting.
 # Has no effect if youtube.com is not in your allowlist.
 # ------------------------------------------------------------
-youtube_restricted: false
+youtube_restricted: true
